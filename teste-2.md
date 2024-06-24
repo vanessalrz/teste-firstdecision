@@ -3,6 +3,8 @@
 
 **_Questão 1:_** Como você gerenciaria exceções em um script Python? 
 
+Resposta: Para gerenciar exceções em um script em Python eu utilizaria a estrutura try - except.
+
 **_Questão 2:_** Explique a diferença entre uma função e um método em Python.
 
 **_Questão 3:_** Descreva um cenário em que você automatizaria uma tarefa em um ambiente Linux.
