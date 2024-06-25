@@ -51,3 +51,17 @@ update_system() {
   sudo apt upgrade -y
 }
 
+# Chama a função para atualizar o sistema
+update_system
+
+# Gerar relatório de monitoramento
+generate_report() {
+  report=" backup/server_report_$(date +%F).txt"
+
+  echo "Relatório do servidor - $(date)" > $report
+  check_services >> $report
+  monitor_resources >> $report
+}
+
+# Chama a função para gerar o relatório
+generate_report
