@@ -7,9 +7,15 @@ Resposta: Para gerenciar exceções em um script em Python eu utilizaria a estru
 
 **_Questão 2:_** Explique a diferença entre uma função e um método em Python.
 
+Resposta: Uma função podemos utilizar em qualquer local do código, já um método só podemos usar dentro de uma classe.
+
 **_Questão 3:_** Descreva um cenário em que você automatizaria uma tarefa em um ambiente Linux.
 
+Reposta: 
+
 **_Questão 4:_** Como você lidaria com dados ausentes em um DataFrame do Pandas?
+
+Reposta: Depende o caso. Podemos excluir linhas ou colunas com dados ausentes usando o comando DataFrame.dropna() ou preencher o dado ausente com algum valor, seja ele a média, mediana, interpolação, etc, usando o comando DataFrame.fillna(). Para excluir linhas ou colunas precisamos considerar a natureza dos dados e o impacto que uma exclusão vai ter na análise.  Porém, se uma coluna por exemplo tiver muitos valores ausentes, talvez excluí-la pode ser o melhor caminho. 
 
 **_Questão 5:_** Qual é a diferença entre uma API RESTful e uma API SOAP?
 
