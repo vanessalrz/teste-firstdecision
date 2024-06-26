@@ -65,3 +65,23 @@ generate_report() {
 
 # Chama a função para gerar o relatório
 generate_report
+
+# para que seja periódico, podemos usar cron. Nesse caso, abrimos o arquivo cron com o comando:
+
+'''
+  sudo crontab -e
+  '''
+
+# e inserimos os seguintes comandos:
+
+'''
+  0 9 * * * linux.sh
+  '''
+
+# para executar o arquivo linux.sh a cada dia as 9h da manhã
+#Explicação
+#    0: O minuto exato em que a tarefa deve ser executada (0 minuto).
+#    9: A hora do dia em que a tarefa deve ser executada (9 horas).
+#    *: Qualquer dia do mês.
+#    *: Qualquer mês.
+#    *: Qualquer dia da semana.
