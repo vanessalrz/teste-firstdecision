@@ -11,7 +11,8 @@
 
 ### ***Questão 3:*** Descreva um cenário em que você automatizaria uma tarefa em um ambiente Linux.
 
-Reposta: 
+<ins> Reposta: </ins>  Eu automatizaria backups no meu ambiente Linux para garantir que meus dados estejam sempre protegidos. Faria cópias automáticas de diretórios importantes e enviaria de maneira segura para a nuvem.
+Após cada backup, faria o script verificar automaticamente a integridade dos dados para evitar qualquer problema de corrupção. Além disso, colocaria para receber notificações por e-mail para ficar atualizada sobre o status dos backups. Isso me dá tranquilidade, sabendo que meus dados estão seguros, sem precisar ficar constantemente verificando manualmente.
 
 ### ***Questão 4:*** Como você lidaria com dados ausentes em um DataFrame do Pandas?
 
@@ -23,7 +24,8 @@ Reposta: Depende o caso. Podemos excluir linhas ou colunas com dados ausentes us
 
 ### ***Questão 6:*** Como você autenticaria solicitações de API em Python?
 
-<ins> Resposta: </ins> 
+<ins> Resposta: </ins> Existe mais de uma mandeira para autenticar API em Python, mas pela facilidade, usando uma API Key.
+Esta chave é incluída no cabeçalho da solicitação para verificar a identidade do usuário e permitir o acesso aos dados da API.
 
 ### ***Questão 7:*** Descreva o que é um conflito de merge em Git e como você resolveria um. Como você reverteria um commit específico em Git?
 
